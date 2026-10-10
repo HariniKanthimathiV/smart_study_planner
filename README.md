@@ -40,18 +40,5 @@ javac StudyPlanner.java
 java StudyPlanner
 ```
 
-## Test the application
-1. Start the program and verify all counts are zero and both lists are empty.
-2. Add `Complete Java assignment` with subject `Java`.
-3. Add `Revise data structures` with subject `DS`.
-4. Mark one task as completed. Confirm total = 2, completed = 1, remaining = 1, progress = 50%.
-5. Add a study session named `Java revision` at `16:00` and another named `Morning review` at `09:00`. Confirm the schedule sorts by time.
-6. Select a task/session and click `Remove selected`.
-7. Try a blank task or an invalid time to verify validation messages.
-
 ## Notes
 - Tasks and sessions are stored in memory and are cleared when the application closes. This version does not use a database or permanent file storage.
-- This is a Java desktop application, not a browser website. It can be shown live from your laptop during a presentation.
-
-
-**Display fix:** The Add and Remove buttons are now in a dedicated visible action row beneath the input fields. Extract this updated ZIP into a new folder and run `run.bat` to compile the updated Java source.
